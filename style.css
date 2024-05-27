@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.zagolovok{
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-weight: 600;
+}
+.settings, .information{
+    font-family: 'Montserrat Alternates';
+    text-decoration: none;
+}
+.header_slings{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    color: rgb(22, 102, 250);
+}
+.Nadpis{
+    padding-top: 30px;
+    font-size: 48px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    color: aliceblue;
+}
+.Nadpis2{
+    font-size: 24px;
+    font-family: 'Montserrat Alternates';
+    color: aliceblue;
+}
+.Nadpis3{
+    font-size: 30px;
+    font-family: 'Montserrat Alternates';
+    color: aliceblue;
+    font-weight: 600;
+}
+.con1{
+    width: 100%;
+    background-color: rgb(22, 102, 250);
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.bilet1:hover{
+    color: aliceblue;
+    background-color: rgb(19, 93, 230);
+    transition: 0.5s;
+}
+.bilet1{
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: aliceblue;
+    font-family: 'Montserrat Alternates';
+    color: rgb(22, 102, 250);
+    height: 100px;
+    width: 300px;
+    border-radius: 16px;
+}
+.bilet_name{
+    font-weight: 600;
+    font-size: 24px;
+}
+.naiti:hover{
+    color: rgb(22, 102, 250);
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+.naiti{
+    background-color: rgb(255, 140, 0);
+    color: aliceblue;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    height: 150px; 
+}
+.polebiletov{
+    width: 350px;
+    height: 60px;
+    font-family: 'Montserrat Alternates';
+    font-size: 30px;
+    border-radius: 20px;
+}
+.bileti{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 250px 20px 250px;
+}
+.reclama{
+    width: 500px;
+    background-color: rgb(255, 251, 0);
+    margin: auto;
+    border-radius: 16px;
+}
+.bs{
+    color: black;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-size: 600;
+}
+.test{
+    color: blue;
+    font-size: 18px;
+}
+.spike{
+    width: 400px;
+    height: 85px;
+}
+.reclamatext{
+    font-size: 10px;
+    font-family: 'Montserrat';
+}
+.map, .company{
+    color: aliceblue;
+    background-color: rgb(22, 102, 250);
+    font-family:'Montserrat Alternates';
+}
+.karta{
+    width: 1000px;
+}
+.poleti, .samolet{
+    font-size: 30px;
+    margin: 40px;
+}
+.samoleti{
+    color: aliceblue;
+    background-color: rgb(22, 102, 250);
+    font-family:'Montserrat Alternates';
+}
+.karta, .karta_samoletov{
+    border-radius: 20px;
+}
+.karta_samoletov{
+    width: 800px;
+}
+.company{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.avialinii{
+    font-family: 'Montserrat Alternates';
+    font-size: 18px;
+    color: aliceblue;
+}
+.tehpoddershka{
+    text-align: center;
+}
+.number2{
+    font-weight: 600;
+}
+footer{
+    height: 100px;
+    background-color: aliceblue;
+    color: rgb(22, 102, 250);
+    font-family: 'Montserrat Alternates';
+    font-size: 24px;
+    padding-top: 30px;
+}
